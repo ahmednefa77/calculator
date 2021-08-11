@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/calculatorstyle.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+    <main class="container">
+        <section class="row gy-5 bg-warning">
+           <article class="col bg-danger">
+               article 1
+           </article>
+           <article class="col bg-info">
+            article 2
+        </article>
+        <article class="col bg-success">
+            article 3
+        </article>
+        <article class="col bg-dark">
+            article 4
+        </article>
+
+        </section>
+        </main>
+
+    <!--<input class="jqequation mt-5"><br>
+    <button class="calculatejqequation mt-5">calculate equation</button>-->
+    <!------------------------------->
+    
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/calculatorjsexp.js"></script>
+    <script>
+        $(document).ready(function(){
+          $(".calculatejqequation").click(function(){
+              var jqequation=$('.jqequation').val();
+              //alert the mathematical value of jqequation input 
+              alert(eval(jqequation));
+          })  
+          $(".cos").on("click",function(){
+              //get the value(text) from input save it in jqequation
+              var jqequation=$('.jqequation').val();
+              //Add "Math.cos(" to the input 
+              $(".jqequation").val(jqequation + "Math.cos(");
+              
+          })
+
+        })
+    </script>
+
+</body>

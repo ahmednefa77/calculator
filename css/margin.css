@@ -1,0 +1,21 @@
+*{margin: 0;padding: 0;}
+.upperdiv{
+    margin-top: 100px;
+    height: 100px;
+    background-color: blue;
+}
+section {display: flex;justify-content:center;}
+section div
+{
+    width:20%;
+    height: 200px;
+}
+.leftdiv{background-color: brown;}
+.rightdiv{background-color: brown;}
+.lowerdiv{height: 100px;background-color: blue;}
+
+.Mydiv{
+    color:white;
+    font-size: 21px;
+    background-color: black;
+}

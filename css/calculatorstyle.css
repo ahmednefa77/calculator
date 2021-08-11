@@ -1,0 +1,32 @@
+/*
+Scientific Calculator
+====================
+
+
+steps to calculate equation
+1)get the equation in the form of string that jq can understand 
+2) execute the function by calling built in function eval("equation")
+----------------------------------------------------------
+1]
+jq has mathematical built in functions that you can call it,functions I used are
+Math.cos(x) : calculate cos(x);
+Math.sin(x) : calculate sin(x)
+Math.tan(x) :calculate tan(x)
+Math.log(x) : calculate log(x)
+Math.exp(x) : calculate exp(x)
+Math.pow(x,y) :calculate x to the power y
+Math.sqrt(x) :calculate the square root of x
+Math.abs(x)  :calculate absolute value of x
+Math.PI :returns pi
+
+example:
+=========
+If you want to calculate :
+sin(2pi) + 12^3 + sqrt(9)
+you must pass the following equation to jq so that equation will be:
+
+var Myequation="Math.sin(2*Math.PI) + Math.pow(12,3) + Math.sqrt(9)"
+then the result will be caculated as the following
+result=eval(Myequation)
+*/
+*{margin:0;padding:0;}

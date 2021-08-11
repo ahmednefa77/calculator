@@ -1,0 +1,95 @@
+*{padding:0;margin:0;
+box-sizing: border-box;}
+main {
+    width:80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.uppersection
+{
+    height :300px;
+    
+}
+.lowersection
+{
+    height:300px;
+}
+.uppersection .asideleft
+{
+    float:left;
+    width:47%;
+    color:gray;
+    font-size:50px;
+    background-color: black;
+    height: 100%;
+    text-align: center;
+    
+}
+.uppersection .asideleft h1{
+    line-height: 300px;
+}
+.uppersection .asideright
+{
+    border:2px gray solid;
+    float:right;
+    height:100%;
+    width:47%;
+    background-color: white;
+}
+.uppersection .asideright h1
+{
+    margin:30px 20px;
+    font-size:50px;
+
+}
+.uppersection .asideright p
+{
+    margin:10px 30px;
+    font-size: 20px;
+}
+.lowersection
+{
+    margin-top: 10px;
+}
+.lowersection .myarticle
+{
+    float: left;
+    width:30%;
+    height: 100%;
+}
+.lowersection .myarticle .upperdiv
+{
+    height:20%;
+    border:2px black solid;
+    text-align: center;
+    font-size: 40px;
+
+}
+.lowersection .myarticle .lowerdiv
+{
+    border:2px black solid;
+    padding-left:20px;
+    margin-top: 5px;
+    height:75%;
+}
+.lowersection .myarticle .lowerdiv p
+{
+    font-size: 20px;
+}
+.lowersection .myarticle:nth-of-type(3)
+{
+    float: right;
+}
+.lowersection .myarticle:nth-of-type(2)
+{
+    margin-left:5%;
+}
+footer {
+    height:100px;
+    text-align: center;
+    line-height: 100px;
+    font-size:30px;
+    margin-top: 30px;
+    background-color: gray;
+    color: white;
+}

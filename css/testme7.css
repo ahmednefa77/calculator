@@ -1,0 +1,11 @@
+
+.error-text , .less-text ,.emptypassword ,.lesspassword
+{
+    color:red;
+    display:none 
+}
+.error{border:2px solid red}
+.error-text , .less-text
+{
+    display:none
+}

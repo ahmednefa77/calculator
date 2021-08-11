@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding: 0;
+}
+main
+{
+    width:1000px;
+    margin: 20px auto;
+    display: flex;
+    }
+main div
+{
+    width:100px;
+    font-size: 25px;
+}
+main div:nth-child(1){background-color: indigo;flex-grow: 2;}
+main div:nth-child(2){background-color: red;flex-grow: 2;
+}
+main div:nth-child(3){background-color: blue;width:200px;flex-grow: 2;}
+main div:nth-child(4){background-color: rgb(183, 243, 17);}

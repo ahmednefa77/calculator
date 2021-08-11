@@ -1,0 +1,51 @@
+body
+{
+    height: 3000px;
+}
+.count
+{
+    background-color: #999;
+    height: 200px;
+}
+.mydiv span
+{
+  font-size:30px;
+  font-weight: bold;
+}
+
+.mycontainer .section1
+{
+    padding-top: 80px;
+}
+/*////////////////////////////*/
+.skills .progress
+{
+    
+    height:40pX;
+    margin-bottom: 40px;
+    text-align: left;
+    
+}
+.skills .progress-bar
+{
+    height: 100%;
+    text-align: left;
+    padding-left:10px;
+}
+/****************************************************/
+.ourservices
+{
+    margin-top: 30px;
+}
+.ourservices div article
+{
+    
+    border:1px solid #999;
+    height: 200px;
+    
+}
+.ourservices div svg
+{
+    margin-top: 30px;
+    color:rgb(85, 100, 151);
+}

@@ -1,0 +1,117 @@
+*{padding:0;margin:0}
+body {height:2000px;}
+header
+{
+    height: 140px;
+    background-color: blueviolet;
+}
+/*////start section1*/
+.section1
+{
+   position: relative;
+    height:600px;
+    background-image: url("../images/advanced.jpg");
+    background-size: cover;
+}
+.section1 .overlay
+{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:rgba(0,0,0,0.7);
+   
+}
+.section1 .box
+{
+    position: absolute;
+    color:white;
+    top:300px;
+    left:100px;
+    width:30%;
+    height:100px;
+    background-color: black;
+    opacity:0.5;
+    padding:30px;
+    border-left:5px solid red;
+ 
+}
+ .myarticle
+{
+    width:80%;
+    margin:40px auto;
+    text-align: center;
+    font-size: 25px;
+
+}
+/********************End of Section 1 *********************/
+/**************************************************************************/
+/********************Start of Section 2*************************/
+.section2
+{
+    width:80%;
+    margin: 50px auto;
+    display:flex;
+    justify-content: space-between;
+}
+ h1
+{
+    
+    text-align: center;
+    margin-top: 40px;
+
+}
+.section2 .leftaside
+{
+    width:30%;
+    
+}
+.section2 .leftaside .upperdiv
+{
+    margin-bottom: 40px;
+}
+.section2 .leftaside span
+{
+    color:cornflowerblue;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.myicon
+{
+    color:cornflowerblue;
+}
+/*********************Start section 3**********************/
+.section3
+{
+    background-color: #444;
+    height:250px;
+}
+.section3 main
+{
+    display:flex;
+    justify-content: space-evenly;
+}
+.section3 h2
+{
+    margin-left:150px;
+    padding-top:20px;
+    color:white;
+}
+.section3 ul
+{
+   width:20%;
+    margin-left:40px;
+    list-style: none;
+    
+}
+.section3 ul li
+{
+    margin-top: 5px;
+    font-size: 20px;
+    color:gray;
+}
+.section3 ul li svg
+{
+    color:brown;
+}
